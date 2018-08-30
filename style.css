@@ -1,0 +1,618 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+html,body{
+
+    width: 100%;
+    height: 100%;
+
+}
+
+#nav{
+    width: 100%;
+    height: 50px;
+    background-color: rgb(17, 17, 95);
+    display: flex;
+}
+
+#navleft{
+    width: 50%;
+    height: inherit;
+    
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+
+#navleftlogo{
+    font-size: 28px;
+    color:white; 
+}
+
+#navleft button{
+    width: 90%;
+    padding: 5px;
+    text-align: left;
+    display: flex;
+    justify-content: space-between;
+    border: none;
+
+}
+
+#navright{
+    width: 50%;
+    
+    height: inherit;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px;
+    font-size: 20px;
+    color: white;
+}
+
+#contain{
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+#containa{
+    width: 15%;
+    height: inherit;
+}
+#boxaup{
+    width: 100%;
+    height: 45%;
+    background-color: #dfe6e9;
+    padding: 20px 9px 0px 13px;
+    font-family: 'Raleway', sans-serif;
+}
+
+#uplogo{
+    width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 10px;
+  
+}
+
+#updiv{
+    width: 120px;
+    height: 80px;
+    background-image: url('shah\ rukh.jpg');
+    background-size: cover;
+}
+
+#boxaup h1{
+    font-size: 18px;
+    display: flex;
+    color: rgb(17, 17, 95);
+
+    padding: 10px;
+}
+
+#boxaup p{
+    padding-top: 10px;
+    color:rgb(37, 36, 36);
+}
+
+#lo span{
+    color: rgb(17, 17, 95);
+
+}
+
+#loo span{
+    color: gray;
+}
+
+#looo span{
+    color: #70a1ff;
+}
+
+#loooo span{
+    color:gray;
+}
+
+#looooo span{
+    color: orangered;
+}
+
+#loooooo span{
+    color: rgb(20, 20, 192);
+}
+
+#looooooo span{
+    color: rgb(84, 84, 194);
+}
+
+#boxamid{
+    width: 100%;
+    height: 16%;
+    background-color: #dfe6e9;
+
+
+    padding: 0px 15px;
+
+}
+
+#boxamid h1{
+    font-size: 20px;
+    color: rgb(17, 17, 95);
+    padding-bottom: 4px;
+
+
+}
+
+#boxamid p{
+    padding-top: 6px;
+    font-family: 'Raleway', sans-serif;
+    color:rgb(37, 36, 36);
+
+}
+
+#go span{
+    color: #184599;
+}
+
+#goo span{
+    color: gray;
+}
+
+#gooo span{
+    color:rgb(179, 41, 41);
+}
+
+#boxadown{
+    width: 100%;
+    height: 30%;
+    padding: 0px 15px;
+    background-color: #dfe6e9;
+
+}
+
+#boxadown h1{
+    font-size: 20px;
+    padding-bottom:7px;
+    color: rgb(17, 17, 95);
+
+
+}
+
+#boxadown p{
+    padding-top: 7px;
+    font-family: 'Raleway', sans-serif;
+    color:rgb(37, 36, 36);
+}
+
+#mo span{
+    color: dimgray;
+}
+
+#moo span{
+    color: rgb(173, 170, 170);
+}
+
+#mooo span{
+    color: blue;
+
+}
+
+#moooo span{
+    color: rgb(179, 41, 41);
+
+}
+
+#mooooo span{
+    color:palevioletred;
+}
+
+#moooooo span{
+    color: orangered;
+}
+
+#mooooooo span{
+    color: rgb(68, 64, 64);
+}
+
+#containb{
+    width: 55%;
+    height: inherit;
+    background-color: #dfe6e9;
+    padding: 10px;
+}
+
+
+#boxbup{
+    width: 100%;
+    height: 23%;
+    background-color: #f5f6fa;
+    padding: 5px 0px;
+    margin-bottom: 40px;
+
+}
+
+#bup{
+    display: flex;
+    width: 100%;
+    height: 40px;
+    border-bottom: 1px solid #ced6e0;
+    
+    padding: 5px 15px; 
+    
+}
+
+#bup h1{
+    font-size: 20px;
+    margin-right: 50px;
+    color: #080808;
+}
+
+#do span{
+    color: rgb(20, 20, 99);
+}
+
+#doo span{
+    color: orange;
+}
+
+#bup h2{
+    font-size: 20px;
+}
+
+#bmid{
+    width: 100%;
+    height: 80px;
+    padding: 10px 20px;
+    font-size: 10px;
+    color: #7f8c8d;
+    
+}
+
+
+    
+
+
+
+
+#bdown{
+    width: 100%;
+    height: 50px;
+    padding: 10px 10px;
+    background-color: #f1f2f6;
+    border: 1px solid #ced6e0;
+    text-align: right;
+}
+
+#bdown button{
+    background-color: rgb(17, 17, 95);
+    
+    
+    border: none;
+    padding: 8px 30px;
+    color: white;
+}
+
+#boxbmid{
+    width: 100%;
+    height: 300px;
+    background-color: white;
+}
+
+#bmidup{
+    width: 100%;
+    height: 140px;
+    background-color: #f5f6fa;
+    
+}
+
+#bmidupfirst{
+    width: 100%;
+    height: 80px;
+    background-color: #f5f6fa;
+    
+    padding: 10px 20px;
+}
+
+#logo{
+    width: 200px;
+    display: flex;
+    height: inherit;
+    
+    justify-content: space-around;
+
+
+}
+#dupfirst{
+    width: 75px;
+    height: 60px;
+    background-image: url('amir.jpg');
+    background-size: cover;
+}
+
+
+#bmidupfirst h1{
+    font-size: 20px;
+    color: rgb(17, 17, 95);
+
+
+}
+
+#bmidupfirst p{
+    position: relative;
+    top: -50px;
+    left: 80px;
+    font-size: 14px;
+    color: #7f8c8d;
+}
+
+#ko span{
+    color: rgb(7, 7, 116);
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+#bmidupsecend {
+    padding: 0px 10px;
+
+}
+
+#bmidupsecend p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+
+#bmidupsecend h3{
+    font-size: 16px;
+    padding-top: 4px;
+    font-family: Arial, Helvetica, sans-serif;
+    word-spacing: 8px;
+    color: rgb(17, 17, 95);
+    padding-bottom: 8px;
+
+}
+
+#bmidupthird{
+    background-color: #f1f2f6;
+
+    
+}
+
+#bmidlogoa{
+    width: 100%;
+    height: 30px;
+    background-color: #f1f2f6;
+    border: 1px solid #ced6e0;
+    padding: 5px 10px;
+    margin-bottom: 10px;
+}
+
+#bmidlogoa h1{
+    font-size: 15px;
+    padding-bottom: 1px;
+}
+
+#logob{
+    width: 300px;
+    height: 90px;   
+    
+
+    
+    display: flex;
+    justify-content: space-around;
+}
+#logobdiv{
+    width: 110px;
+    height: 70px;
+    background-image: url('salman.jpg');
+    background-size: cover;
+}
+
+#logob h1{
+    font-size: 20px;
+    color: rgb(17, 17, 95);
+    position: relative;
+    top: 2px;
+    left: -10px;
+
+
+}
+
+#bmidupthird h3{
+    font-size: 17px;
+    top: -60px;
+    left: 140px;
+    position: relative;
+    color: #7f8c8d;
+
+
+    
+}
+
+#logoc{
+    display: flex;
+    width: 100%;
+    height: 45px;
+    
+    border-top: 1px solid #ced6e0;
+    
+    position: relative;
+    top: -30px;
+    padding: 10px 10px;
+
+}
+
+#logocdiv{
+    width: 100px;
+    height: 60px;
+    background-image: url('shah\ rukh.jpg');
+    background-size: cover;
+    margin-right: 20px;
+}
+
+#logoc button{
+    
+    padding: 0px 5px;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    top:18px;
+    border: none;
+    border: 1px solid #ced6e0;
+
+
+
+}
+
+
+#containc{
+    width: 410px;
+    height: 100%;
+    background-color: #dfe6e9;
+    
+    padding: 20px;
+}
+
+#containcdiva
+{
+    width: 100%;
+    height: 300px;
+    background-color: white;
+}
+
+#parta{
+    width: 100%;
+    height: 30px;
+    background-color: #f1f2f6;
+    
+    display: flex;
+    justify-content: space-between;
+    padding: 8px;
+
+
+}
+
+#partb {
+    padding: 6px;
+}
+#partb p{
+    padding: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#partb p span{
+    color: rgb(7, 7, 85);
+    font-family: Arial, Helvetica, sans-serif;
+    
+    font-size: 18px;
+
+}
+
+#containc h1{
+    font-size: 18px;
+    padding: 20px  0px;
+    color: #7f8c8d;
+}
+
+#containc button{
+    padding: 5px 130px;
+    border: none;
+    background-color: #ffffff;
+    font-size: 20px;
+}
+
+
+
+#point{
+  
+    width: 7px;
+    height: 7px;
+    background-color: green;
+    position: relative;
+    top: -30px; 
+    left: 124px;
+    border-radius: 50%;
+
+}
+
+#chatone{
+    width: 50%;
+    height: 70px;
+
+    padding: 2px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2px;
+}
+
+#one{
+    width: 70px;
+    height: 65px;
+    background-image: url('alia.jpg');
+    background-size: cover;
+}
+
+#chatone h1{
+    color: rgb(17, 17, 95);
+    font-size: 20px;
+    position: relative;
+    top: -20px;
+    left: 10px;
+
+}
+
+#chattwo{
+    width: 60%;
+    height: 80px;
+    
+    padding: 3px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#two{
+    width: 90px;
+    height: 70px;
+    background-image: url('kapoor.jpg');
+    background-size: cover;
+
+}
+
+#chattwo h1{
+    color: rgb(17, 17, 95);
+    font-size: 20px;
+    position: relative;
+    top: -20px;
+    left: 10px;
+
+}
+
+#chatthree{
+    width: 60%;
+    height: 80px;
+    
+    padding: 3px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#three{
+    width: 90px;
+    height: 70px;
+    background-image: url('deep.jpg');
+    background-size: cover;
+    background-size: cover;
+
+}
+
+#chatthree h1{
+    color: rgb(17, 17, 95);
+    font-size: 20px;
+    position: relative;
+    top: -20px;
+    left: 10px;
+
+}
